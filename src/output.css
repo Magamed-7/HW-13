@@ -414,6 +414,12 @@
   .max-w-380 {
     max-width: calc(var(--spacing) * 380);
   }
+  .max-w-\[90\%\] {
+    max-width: 90%;
+  }
+  .max-w-\[90\] {
+    max-width: 90;
+  }
   .max-w-\[380px\] {
     max-width: 380px;
   }
@@ -776,6 +782,11 @@
   .lg\:w-\[65\%\] {
     @media (width >= 64rem) {
       width: 65%;
+    }
+  }
+  .lg\:max-w-300 {
+    @media (width >= 64rem) {
+      max-width: calc(var(--spacing) * 300);
     }
   }
   .lg\:max-w-380 {
